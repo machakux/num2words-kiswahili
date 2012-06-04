@@ -51,7 +51,7 @@ class Number:
 				if hundredr:
 					ten = hundredr//10
 					one = hundredr%10
-					word += mamia[hundred] +' '+ makumi[ten]
+					word += mamia[hundred] +' na '+ makumi[ten]
 					if one:
 						word+=' na '+mamoja[one]
 				else:
