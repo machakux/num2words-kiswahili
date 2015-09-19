@@ -125,7 +125,7 @@ class Number:
 			self.number = int(number_ls[0])
 		except:
 			pass
-		if self.number < 0:
+		if number_ls[0][0] == '-':
 			self.number = -self.number
 			word += 'hasi '
 		if self.number==0:
